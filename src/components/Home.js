@@ -12,10 +12,7 @@ const Home = () => {
       <div className='flex flex-col justify-center h-full '>
         <h2 className='text-3xl py-3 sm:text-5xl w-full text-white
          font-bold'>I'm a Mern Stack Developer</h2>
-        <p className='text-gray-400 py-4 max-w-md'> I have 8 year of experience of building and design software for 
-            diffrent companys
-            Currently i am working on Backend by using Node.js,MongoDb
-            express and so on 
+        <p className='text-gray-400 py-4 max-w-md'> I am a firm believer in staying up-to-date with the latest technologies and industry trends, and I am constantly seeking to expand my knowledge and skill set.
         </p>
         <div><Link to="portfolio" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2
         flex items-center rounded-md bg-gradient-to-r from-red-500 to-orange-400
