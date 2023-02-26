@@ -1,36 +1,42 @@
 import React from 'react'
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
-import installNode from '../assets/portfolio/installNode.jpg'
-import navbar from '../assets/portfolio/navbar.jpg'
-import reactParallax from '../assets/portfolio/reactParallax.jpg'
-import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
-import reactWeather from '../assets/portfolio/reactWeather.jpg'
+import URLs from '../assets/portfolio/URLs.jpg'
+import aarogya from '../assets/portfolio/aarogya.jpg'
+import bma from '../assets/portfolio/bma.jpg'
+import News from '../assets/portfolio/News.jpg'
+import shop from '../assets/portfolio/shop.jpg'
+import intern from '../assets/portfolio/inten.jpg'
 
 const Portfolio = () => {
     const portfolio = [
         {
             id : 1,
-            src : arrayDestruct
+            src : shop,
+            link :  'https://github.com/pratham-svg/ShopingCartFrontend'  ,
         },
         {
             id : 2,
-            src : installNode
+            src : aarogya,
+            link : 'https://github.com/pratham-svg/Backend-Developer-Assignment---Arogya-setu'  ,
         },
         {
             id : 3,
-            src : navbar
+            src : bma,
+            link : 'https://github.com/dk7696822/Project-3-Book-Management'  ,
         },
         {
             id : 4,
-            src : reactParallax
+            src : News,
+            link :  'https://github.com/pratham-svg/Pratham-s-News'  ,
         },
         {
             id : 5,
-            src : reactSmooth
+            src : URLs,
+            link :  'https://github.com/dk7696822/Project-4-URL-Shortner'  ,
         },
         {
             id : 6,
-            src : reactWeather
+            src : intern,
+            link :  'https://github.com/AliAbbas547/functionUp-project2/tree/Project2/internship/Group18'  ,
         },
     ]
   return (
@@ -45,13 +51,13 @@ const Portfolio = () => {
         </div>
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8
         px-12 sm:px-0'>
-            { portfolio.map(({id , src})=>
+            { portfolio.map(({id , src , link })=>
               <div key={id} className='shadow-md shadow-gray-400 rounded-lg'>
               <img src={src} alt='' className='rounded-md duration-200
               hover:scale-105' />
               <div className=' flex items-center justify-center'>
-                <button className=' w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button> 
-                <button className=' w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>code</button>
+                <button className=' w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'><a href={link}>Demo</a></button> 
+                <button className=' w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'><a href={link}>code</a></button>
               </div>
               </div> )}
       

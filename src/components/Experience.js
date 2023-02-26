@@ -2,7 +2,6 @@ import React from 'react'
 import html from '../assets/html.png'
 import css from '../assets/css.png'
 import javascript from '../assets/javascript.png'
-import nextjs from '../assets/nextjs.png'
 import github from '../assets/github.png'
 import tailwind from '../assets/tailwind.png'
 import reactimgae from '../assets/react.png'
@@ -36,12 +35,6 @@ const Experience = () => {
             src : reactimgae,
             title : "React",
             style : 'shadow-blue-600'
-        },
-        {
-            id : 5,
-            src : nextjs,
-            title : "NEXT JS",
-            style : 'shadow-white'
         },
         {
             id : 6,
