@@ -16,7 +16,7 @@ const SocialLink = () => {
     {
         id : 2,
         child : (<>Github<FaGithub size={30}/></>),
-        href : 'https://github.com',
+        href : 'https://github.com/pratham-svg',
     },
     {
         id : 3,
