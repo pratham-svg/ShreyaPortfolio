@@ -1,7 +1,7 @@
 import React from 'react'
 import {MdOutlineKeyboardArrowRight } from 'react-icons/md'
-import Pratham from '../assets/portfolio/Pratham.png'
 import { Link } from 'react-scroll'
+import Shreya from '../assets/portfolio/ShreyaSingh.jpeg'
 
 const Home = () => {
   return (
@@ -20,7 +20,7 @@ const Home = () => {
             <MdOutlineKeyboardArrowRight size={25}/></span></Link>
             </div>
         </div>
-        <div><img src={Pratham} alt='my profile'
+        <div><img src={Shreya} alt='my profile'
              className='rounded-2xl mx-auto w-2/3 md:w-2/3'></img></div>
       </div>
     </div>

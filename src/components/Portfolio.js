@@ -2,9 +2,11 @@ import React from 'react'
 import URLs from '../assets/portfolio/URLs.jpg'
 import aarogya from '../assets/portfolio/aarogya.jpg'
 import bma from '../assets/portfolio/bma.jpg'
-import News from '../assets/portfolio/News.jpg'
 import shop from '../assets/portfolio/shop.jpg'
 import intern from '../assets/portfolio/inten.jpg'
+import Univercity from '../assets/portfolio/Univercity.jpeg'
+import Blog from '../assets/portfolio/Blog.jpeg'
+import BlockChain from '../assets/portfolio/Blockchain.jpeg'
 
 const Portfolio = () => {
     const portfolio = [
@@ -21,27 +23,37 @@ const Portfolio = () => {
         {
             id : 3,
             src : bma,
-            link : 'https://github.com/dk7696822/Project-3-Book-Management'  ,
-        },
-        {
-            id : 4,
-            src : News,
-            link :  'https://github.com/pratham-svg/Pratham-s-News'  ,
+            link : 'https://github.com/singhshreya425/project-3/tree/project/booksManagementGroup11'  ,
         },
         {
             id : 5,
             src : URLs,
-            link :  'https://github.com/dk7696822/Project-4-URL-Shortner'  ,
+            link :  'https://github.com/singhshreya425/myownbackendpracticeproject/tree/UrlShortner'  ,
         },
         {
             id : 6,
             src : intern,
-            link :  'https://github.com/AliAbbas547/functionUp-project2/tree/Project2/internship/Group18'  ,
+            link :  'https://github.com/singhshreya425/myownbackendpracticeproject/tree/project/frontend-open-to-intern'  ,
+        },
+        {
+          id : 6,
+          src : Univercity,
+          link :  'https://github.com/singhshreya425/university_mern'  ,
+        },
+        {
+          id : 7,
+          src : Blog,
+          link :  'https://github.com/singhshreya425/myownbackendpracticeproject/tree/project1blogging/lithium'  ,
+        },
+        {
+        id : 8,
+        src : BlockChain,
+        link :  'https://github.com/singhshreya425/myownbackendpracticeproject/tree/blockchain'  ,
         },
     ]
   return (
     <div name='portfolio' className='bg-gradient-to-b from-black to-gray-800
-     w-full text-white md:h-screen'>
+     w-full text-white '>
       <div className=' max-w-screen-lg p-4 mx-auto flex flex-col justify-center
       w-full h-full'>
         <div className='pb-8'>

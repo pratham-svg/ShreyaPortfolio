@@ -10,18 +10,18 @@ const SocialLink = () => {
     {
         id : 1,
         child : (<>Linkedin<FaLinkedin size={30}/></>),
-        href : 'https://linkedin.com',
+        href : 'https://www.linkedin.com/in/shreya-singh-8135aa17b/',
         style : 'rounded-tr-md'
     },
     {
         id : 2,
         child : (<>Github<FaGithub size={30}/></>),
-        href : 'https://github.com/pratham-svg',
+        href : 'https://github.com/singhshreya425',
     },
     {
         id : 3,
         child : (<>Mail<HiOutlineMail size={30}/></>),
-        href : 'mailto:prathampanchariya@gmail.com',
+        href : 'mailto:singhshreya425@gmail.com',
     },
     {
         id : 4,

@@ -30,7 +30,7 @@ const Navbar = () => {
     <div className=' flex justify-between items-center w-full
     h-20 px-4 text-white bg-black'>
         <div className='text-5xl font-signature'>
-            Pratham
+            Shreya Singh
         </div>
         <ul className='hidden md:flex'>
         {links.map(({id , link})=> <li key={id} className='px-4 cursor-pointer capitalize text-gray-500
